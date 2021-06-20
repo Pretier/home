@@ -1,0 +1,155 @@
+/* Button */
+
+.first-btn{
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #1FAD9F;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Share-Title */
+
+.title-2 {
+  display: none;
+}
+
+.share-text {
+  display: none;
+}
+
+/* Share-Button */
+
+.share-btn-container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .share-btn-container a i {
+    font-size: 32px;
+  }
+  
+  .share-btn-container a {
+    margin: 12px 0;
+    transition: 500ms;
+  }
+  
+  .share-btn-container a:hover {
+    transform: scale(1.2);
+  }
+  
+  .share-btn-container .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .share-btn-container .fa-twitter {
+    color: #1da1f2;
+  }
+  
+  .share-btn-container .fa-linkedin {
+    color: #0077b5;
+  }
+  
+  .share-btn-container .fa-pinterest {
+    color: #bd081c;
+  }
+  
+  .share-btn-container .fa-whatsapp {
+    color: #25d366;
+  }
+
+  /* Photos */
+
+  .photos {
+    display: block;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid #1FAD9F;
+    text-align: center;
+    padding: 6px 0;
+}
+
+  .content {
+    display: flex;
+    justify-content: center;
+}
+
+/* Videos */
+
+.videos {
+  display: block;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid #1FAD9F;
+  text-align: center;
+  padding: 6px 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+/* Title */
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 25px;
+}
+  
+  /* Media Queries */
+  
+  @media (max-width: 550px) {
+    
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+}
+  
+.share-text {
+    display: flex;
+    justify-content: center;
+}
+
+    .share-btn-container {
+      transform: unset;
+      top: unset;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      flex-direction: row;
+      padding: 15px 0;
+      justify-content: center;
+      position: unset    
+    }
+  
+    .share-btn-container a {
+      margin: 0 22px;
+    }
+
+    .share-btn-container a i {
+        font-size: 25px;
+    }
+  }
